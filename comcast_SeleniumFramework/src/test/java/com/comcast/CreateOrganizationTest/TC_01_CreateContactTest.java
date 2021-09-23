@@ -4,6 +4,14 @@ import org.testng.annotations.Test;
 
 public class TC_01_CreateContactTest 
 {
+	@Test
+	public void data()
+	{
+		String URL = System.getProperty("url");
+		System.out.println(URL);
+		String BROWSER = System.getProperty("browser");
+		System.out.println(BROWSER);
+	}
 	@Test(groups="regression")
 	public void createContactTest()
 	{
