@@ -1,17 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="3" total="8" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-09-22T14:04:39 IST" name="Default suite" finished-at="2021-09-22T14:04:39 IST" duration-ms="48">
+  <suite started-at="2021-09-23T15:13:24 IST" name="regional regression Suite" finished-at="2021-09-23T15:13:24 IST" duration-ms="80">
     <groups>
+      <group name="regression">
+        <method signature="TC_01_CreateContactTest.createContactTest()[pri:0, instance:com.comcast.CreateOrganizationTest.TC_01_CreateContactTest@2e1d27ba]" name="createContactTest" class="com.comcast.CreateOrganizationTest.TC_01_CreateContactTest"/>
+        <method signature="TC_01_CreateContactTest.createContactWithOrganizationTest()[pri:0, instance:com.comcast.CreateOrganizationTest.TC_01_CreateContactTest@2e1d27ba]" name="createContactWithOrganizationTest" class="com.comcast.CreateOrganizationTest.TC_01_CreateContactTest"/>
+        <method signature="TC_01_CreateOrganizationTest.createOrganizationWithIndustry()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" name="createOrganizationWithIndustry" class="com.comcast.CreateOrg.TC_01_CreateOrganizationTest"/>
+        <method signature="TC_01_CreateOrganizationTest.deleteOrganization()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" name="deleteOrganization" class="com.comcast.CreateOrg.TC_01_CreateOrganizationTest"/>
+        <method signature="TC_01_CreateOrganizationTest.updateOrganization()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" name="updateOrganization" class="com.comcast.CreateOrg.TC_01_CreateOrganizationTest"/>
+      </group> <!-- regression -->
     </groups>
-    <test started-at="2021-09-22T14:04:39 IST" name="Default test" finished-at="2021-09-22T14:04:39 IST" duration-ms="48">
+    <test started-at="2021-09-23T15:13:24 IST" name="Test" finished-at="2021-09-23T15:13:24 IST" duration-ms="80">
       <class name="com.comcast.CreateOrg.TC_01_CreateOrganizationTest">
-        <test-method signature="createOrganization()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@4a668b6e]" started-at="2021-09-22T14:04:39 IST" name="createOrganization" finished-at="2021-09-22T14:04:39 IST" duration-ms="9" status="PASS">
+        <test-method signature="createOrganizationWithIndustry()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" started-at="2021-09-23T15:13:24 IST" name="createOrganizationWithIndustry" finished-at="2021-09-23T15:13:24 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createOrganization -->
+        </test-method> <!-- createOrganizationWithIndustry -->
+        <test-method signature="deleteOrganization()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" started-at="2021-09-23T15:13:24 IST" name="deleteOrganization" finished-at="2021-09-23T15:13:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteOrganization -->
+        <test-method signature="updateOrganization()[pri:0, instance:com.comcast.CreateOrg.TC_01_CreateOrganizationTest@61d6015a]" started-at="2021-09-23T15:13:24 IST" name="updateOrganization" finished-at="2021-09-23T15:13:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateOrganization -->
       </class> <!-- com.comcast.CreateOrg.TC_01_CreateOrganizationTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.comcast.CreateOrganizationTest.TC_01_CreateContactTest">
+        <test-method signature="createContactTest()[pri:0, instance:com.comcast.CreateOrganizationTest.TC_01_CreateContactTest@2e1d27ba]" started-at="2021-09-23T15:13:24 IST" name="createContactTest" finished-at="2021-09-23T15:13:24 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactTest -->
+        <test-method signature="createContactWithOrganizationTest()[pri:0, instance:com.comcast.CreateOrganizationTest.TC_01_CreateContactTest@2e1d27ba]" started-at="2021-09-23T15:13:24 IST" name="createContactWithOrganizationTest" finished-at="2021-09-23T15:13:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContactWithOrganizationTest -->
+      </class> <!-- com.comcast.CreateOrganizationTest.TC_01_CreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- regional regression Suite -->
 </testng-results>
