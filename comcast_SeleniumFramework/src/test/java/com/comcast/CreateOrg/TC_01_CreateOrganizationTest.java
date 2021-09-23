@@ -19,4 +19,9 @@ public class TC_01_CreateOrganizationTest
 	{
 		System.out.println("execute deleteOrganization");
 	}
+	@Test(groups="regression")
+	public void updateOrganization()
+	{
+		System.out.println("execute updateOrganization");
+	}
 }
