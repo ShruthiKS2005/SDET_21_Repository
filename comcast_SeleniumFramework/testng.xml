@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="smoke">
+<suite name="regional regression Suite">
+
 <groups>
 <run>
-<include name="smoke"/>
+<include name="regression"/>
 </run>
 </groups>
   <test thread-count="5" name="Test">
@@ -11,6 +12,5 @@
       <class name="com.comcast.CreateOrganizationTest.TC_01_CreateContactTest"/>
       <class name="com.comcast.CreateOrg.TC_01_CreateOrganizationTest"/>
     </classes>
-    
   </test> <!-- Test -->
-</suite> <!-- smoke Suite -->
+</suite> <!-- regional regression Suite -->
